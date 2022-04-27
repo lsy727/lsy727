@@ -1,7 +1,123 @@
+@import url(normalize.css);
 body{
-    background-color: rgb(141, 109, 228);
+    background-color: #fbf9cc;
     color: rgb(250, 130, 83);
+    margin: 0px;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 50px 70px;
 }
 h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 5px solid #45ef83;
+    background-color: #794434;
     color: rgb(248, 106, 149);
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px  #307657;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-image: linear-gradient(to bottom,#6fbb9a, #4a9d79);
+    font-family:'Limelight', cursive ;
+}
+#container{
+    width: 80%;
+    background-color: lightseagreen;
+    margin: 0px auto;
+}
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #f16e3a;
+    border-left: 10px solid #ee3443;
+    color: #3134fc;
+}
+#contents{
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #eb824e;
+    background-color: #fa3333;
+}
+#more{
+    text-align: right;
+}
+.h{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #247e8a;
+    border-left: 10px solid #208647;
+    color: #552397;
+    border-radius: 5px 0 0 5px;
+}
+.h-sub{
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffc0ad inset;
+}
+.h-sub span{
+    font-weight: normal;
+}
+#contens>section+section{
+    margin: 80px;
+}
+header,nav,footer{
+    text-align: center;
+}
+a{
+    color: #55aaff;
+}
+a:hover{
+    color: #4fd87c;
+    text-decoration: none;
+}
+a[target="_blank"]::after{
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href^="mailto:"]::after{
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    background: #6fbb9a;
+    color:#fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #90ddbb;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
