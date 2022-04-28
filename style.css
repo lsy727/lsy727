@@ -121,3 +121,6 @@ a[href^="mailto:"]::after{
     display: block;
     clear: both;
 }
+.round{
+    border-radius: 50%;
+}
