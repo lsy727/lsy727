@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(149, 243, 243);
+    text-align: center;
+}
+.a{
+    width: 75px;
+    height: 75px;
+    border: 0;
+}
+.b{
+    width: 75px;
+    height: 75px;
+    border: 0;
+}
+table{
+   margin:0 auto;
+   width: 980px;
+}
