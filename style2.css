@@ -17,3 +17,8 @@ table{
    margin:0 auto;
    width: 980px;
 }
+section{
+    background-color: rgb(38, 50, 230);
+    width: 80%;
+    float: left;
+}
