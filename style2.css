@@ -13,16 +13,23 @@ body{
     height: 75px;
     border: 0;
 }
-table{
-   margin:0 auto;
-   width: 980px;
-}
+
 section{
-    background-color: rgb(38, 50, 230);
-    width: 57%;
+    background-color: rgb(109, 118, 231);
+    width: 55%;
+    float: left;
+}
+section1{
+    background-color: rgb(109, 118, 231);
+    width: 50%;
     float: left;
 }
 .post{
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+.post1{
     text-align: center;
     padding: 15px;
     float: left;
