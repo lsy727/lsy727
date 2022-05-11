@@ -19,6 +19,11 @@ table{
 }
 section{
     background-color: rgb(38, 50, 230);
-    width: 80%;
+    width: 57%;
+    float: left;
+}
+.post{
+    text-align: center;
+    padding: 15px;
     float: left;
 }
