@@ -34,3 +34,24 @@ section1{
     padding: 15px;
     float: left;
 }
+nav{
+    background-color: rgb(70, 67, 247);
+    text-align: right;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav li a{
+    display: block;
+    text-decoration:none ;
+    padding: 20px;
+   color: rgb(54, 223, 223);
+}
+nav li a:hover{
+    color: rgb(68, 233, 123);
+    background-color: rgb(247, 46, 113);
+    transition: background-color 4s linear,color 3s ease-in-out;
+}
