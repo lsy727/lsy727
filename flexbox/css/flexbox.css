@@ -63,4 +63,6 @@ font-family: 'Macondo',cursive;
     position: fixed;
     right: 50px;
     bottom: 50px;
+    left: 50px;
+    top: 0px;
 }
