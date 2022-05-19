@@ -58,11 +58,9 @@ font-family: 'Macondo',cursive;
     width: 200px;
 }
 .gotop{
-    font-size: 100px;
+    font-size: 10px;
     color: rgb(78, 43, 235);
     position: fixed;
     right: 50px;
     bottom: 50px;
-    left: 50px;
-    top: 0px;
 }
