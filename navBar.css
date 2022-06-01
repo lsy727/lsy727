@@ -9,8 +9,8 @@ nav li{
     
 }
 nav li a{
-    display: block;
-    text-decoration:none ;
+    display: inline-block;
+    text-decoration: none;
     padding: 20px;
    color: rgb(240, 250, 250);
 }
