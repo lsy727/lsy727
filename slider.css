@@ -43,6 +43,8 @@
 }
 
 .CSSgal .prevNext a {
+    color: black;
+    font-size: 20PX;
 	background: #fff;
 	position: absolute;
 	width:       60px;
@@ -142,4 +144,12 @@
 	margin: 0 3px;
 	color: rgba(0,0,0,0.8);
 	text-decoration: none;
+}
+
+/*  custom */
+.slider_content{   
+height: 440px!important;
+}
+.banner_area{
+    padding: 10px 0 0 0;
 }
